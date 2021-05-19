@@ -1,6 +1,6 @@
 <template>
   <div class="p-5">
-    <div class="text-4xl font-bold text-center p-4">H&U: Rick & Morty</div>
+    <div class="text-4xl font-bold text-center p-4">H&U: Test</div>
     <div class="flex justify-center">
       <input type="text" placeholder="Nach Character suchen..." class="border-2 border-gray-400 rounded p-4 lg:w-1/2 w-10/12"
              v-model="searchInput" @input="getItems(null)">
